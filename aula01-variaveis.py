@@ -1,3 +1,4 @@
+# VARIÁVEIS
 print('Variável é uma área na memória do computador reservada que contém, no caso, a string em questão.')
 print('')
 estado = True
@@ -28,5 +29,7 @@ print('='*193)
 print('A função isinstance() é uma função em Python que é usada para verificar se um objeto pertence a uma determinada classe ou tipo de dado. Ela retorna True se o objeto for uma instância da classe especificada e False caso contrário. ')
 a = 10
 b = 'Sol'
-print(isinstance(a, int)) #True 
+print(isinstance('int', int)) #False
+print(isinstance(b, str)) #True 
 
+b = 'Lua' #atribuindo novo valor à variável.
